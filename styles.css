@@ -1,0 +1,97 @@
+#main-content-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color:lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-title {
+    margin: 0px;
+    font-size: 100px;
+    font-family: sweetgentle;
+}
+
+#main-button {
+    background-color: burlywood;
+    border: none;
+    color: white;
+    padding: 30px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 12px;
+}
+
+.main-info {
+    font-size: 150%;
+}
+
+body {
+    background-color:#545355;
+}
+
+#title-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#title-chess {
+    font-size: 300%;
+    margin: auto;
+}
+
+.info {
+    margin: auto;
+    font-size: 150%;
+}
+
+.grid-container {
+    margin: auto;
+    align-self: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    height: 920px;
+    width: 920px;
+}
+
+.grid-item {
+    border: 0px;
+    margin: 0px;
+    height: 115px;
+    width: 115px;
+    padding: 0px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.white {
+    background-color: #b48b6a;
+}
+
+.black {
+    background-color: #edd7b4;
+    text-emphasis-color: white;
+}
+
+.piece {
+    height: 80px;
+    width: 80px;
+    padding-bottom: 2px;
+}
+
+.movable-square {
+    background-color: rgb(142, 249, 120);
+}
